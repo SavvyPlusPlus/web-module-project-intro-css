@@ -1,0 +1,228 @@
+/* CSS Reset */ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ /* ========================   My CSS code ============================= */
+ 
+ /* ========================   Body Font  ============================= */
+  body {
+    font-family: 'Roboto Mono', monospace;
+    width: 31.25rem;
+    margin: 0 auto;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+ /* ========================   NAV  ============================= */
+.navi {
+     margin: 0 auto;
+     width:37.5rem;
+     display: inline-block;
+ }
+ .navi nav a {
+     margin: - 0.625rem;
+     border: 0.0625rem solid;
+     padding: 1.25rem;
+     display: inline-block;
+     border-radius: 1.25rem;
+     text-decoration:none;
+     margin-bottom: 1.25rem;
+     text-align: center;
+ }
+ .a1 {
+     color: white;
+     background: #FF764E;
+ }
+ .a2 {
+     color: white;
+     background:#5ED3EB;
+ }
+
+ .a3 {
+     color:white;
+     background: #FFCD69;
+ }
+ /* ========================   Header+Image ============================= */
+ 
+.about h1{
+  position:relative;
+  left: 2.5rem;
+}
+.about img{
+  border-radius:50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  display:flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  max-width:100%;
+}
+
+.asub {
+  flex-basis: 40%;
+}
+.atxt {
+  font-size: 2rem;
+  padding-left: 2rem;
+  margin: 1rem;
+}
+ h1 {
+   margin: 1rem;
+   font-size:1.9rem;
+   font-family: 'Chelsea Market', cursive; 
+   text-align:left;
+   margin-bottom: 1.5rem;
+   margin-left: 0rem;
+}
+
+h2 {
+  margin:1rem;
+  font-size:1rem;
+  text-align: center;
+  margin-bottom:1.5rem;
+}
+
+.atxt p {
+  margin: 1rem;
+  font-size:1rem;
+  text-align: center;
+  padding-lef: 10%;
+  padding-right:10%;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+ 
+
+
+
+
+ /* ========================   Section 1 ============================= */
+
+.SEC1 {
+    background-color:#DDB9A3;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    padding-top: .07%;
+    width:100%;
+    padding-right: 2%;
+    padding-left:.5%;
+    
+}
+ 
+.SEC1 p{
+    margin: .5rem;
+    width:100%;
+    height:30%;
+  
+}
+ 
+
+
+/* ======================= DIV BOX FOR ICONS*================================================*/
+
+
+/* resize images + CENTER */
+.icons img {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+.icons p {
+  height:20%;
+  width:50%;
+  text-align:center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+}
+  .par {
+    font-size: 0.9375rem;
+}
+  
+  
+/* ======================= DIV BOX FOR ICONS*===========================================*/
+span {
+  font-weight: bold;
+}
+footer {
+  background-color: #F9E7DC;
+  margin: auto;
+}
+
+
+.footing {
+     margin: 0 auto;
+     width:37.5rem;
+     display: inline-block;
+ }
+ .footing nav a {
+     margin: - 0.625rem;
+     border: 0.0625rem solid;
+     padding: 1.25rem;
+     display: inline-block;
+     border-radius: 1.25rem;
+     text-decoration:none;
+     margin-bottom: 1.25rem;
+ }
+ .a4 {
+     color: white;
+     background: #FF764E;
+ }
+ .a5 {
+     color: white;
+     background:#5ED3EB;
+ }
+
+ .a6 {
+     color:white;
+     background: #FFCD69;
+ }
